@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>study-notes</title>
+<title>Home – 学習ノート</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">study-notes</span>
+    <span class="navbar-title">学習ノート</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,6 +97,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./topics/index.html"> 
+<span class="menu-text">Topics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./archive/index.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -108,23 +116,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">study-notes</h1>
+<h1 class="title">Home</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -136,10 +142,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<div class="hero">
+<p class="eyebrow">
+Study Notes
+</p>
+<section id="学んだことをあとで見返せる形で残す" class="level1">
+<h1>学んだことを、あとで見返せる形で残す</h1>
+<p class="lead">
+このサイトは、勉強した内容を「テーマ別」「時系列」「文献メモ」の3つの視点でたどれるようにした学習ノートです。 まずは Topics から分野を選び、必要に応じて Archive で過去のノートを追えるようにしています。
+</p>
+</section>
+</div>
+<section id="入口" class="level2">
+<h2 class="anchored" data-anchor-id="入口">入口</h2>
+<div class="link-grid">
+<section id="topics" class="level3 link-card">
+<h3 class="anchored" data-anchor-id="topics"><a href="./topics/index.html">Topics</a></h3>
+<p>理論基礎・統計モデル・応用分野・文献ノートの4つに分けて整理します。</p>
+</section>
+<section id="archive" class="level3 link-card">
+<h3 class="anchored" data-anchor-id="archive"><a href="./archive/index.html">Archive</a></h3>
+<p>ノートを日付順に追える一覧です。書き進めるときの背骨になります。</p>
+</section>
+<section id="about" class="level3 link-card">
+<h3 class="anchored" data-anchor-id="about"><a href="./about.html">About</a></h3>
+<p>このサイトの目的、書き方、ファイル構成をまとめています。</p>
+</section>
+</div>
+</section>
+<section id="すすめ方" class="level2">
+<h2 class="anchored" data-anchor-id="すすめ方">すすめ方</h2>
+<ol type="1">
+<li>学んだ内容は <code>notes/YYYY/</code> に 1 テーマ 1 ファイルで追加する</li>
+<li>細かいテーマは Topics にまとめる</li>
+<li>文献は <code>論文の内容メモ</code> として切り出す</li>
+<li>後から見返すときは Archive を使う</li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -215,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Daniel-Tacholov\.github\.io\/study-notes\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

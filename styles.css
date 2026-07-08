@@ -1,1 +1,86 @@
-/* css styles */
+/* Shared layout for the study-notes site */
+
+.hero {
+  padding: 2.25rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1.25rem;
+  border: 1px solid #d9e2ec;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(240, 246, 255, 0.92));
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+}
+
+.hero .eyebrow {
+  margin: 0 0 0.4rem;
+  color: #65748b;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.hero .lead {
+  max-width: 72ch;
+  margin-bottom: 0;
+  color: #243041;
+  font-size: 1.08rem;
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.link-card {
+  display: block;
+  padding: 1rem 1.1rem;
+  border: 1px solid #d9e2ec;
+  border-radius: 1rem;
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.link-card:hover {
+  transform: translateY(-2px);
+  border-color: #a3bffa;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.link-card h3 {
+  margin-top: 0;
+}
+
+.card-title {
+  margin: 0 0 0.35rem;
+  font-weight: 700;
+}
+
+.card-meta {
+  margin: 0;
+  color: #5f6b7a;
+  font-size: 0.95rem;
+}
+
+.note-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.note-table th,
+.note-table td {
+  padding: 0.65rem 0.5rem;
+  border-bottom: 1px solid #e2e8f0;
+  vertical-align: top;
+}
+
+.note-table th {
+  text-align: left;
+}

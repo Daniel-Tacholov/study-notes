@@ -1,0 +1,18 @@
+---
+title: "Archive"
+toc: false
+---
+
+ここは、ノートを日付順でたどるための一覧です。
+ノートが増えてきたら、まずここから振り返れるようにします。
+
+新しいノートは `notes/YYYY/` に `YYYY-MM-DD-slug.qmd` という名前で追加します。
+
+| 日付 | ノート | 分類 |
+| --- | --- | --- |
+| 2026-07-08 | [統計関連の線形代数](../notes/2026/2026-07-08-statistical-linear-algebra.qmd) | 理論基礎 |
+| 2026-07-08 | [数理統計](../notes/2026/2026-07-08-mathematical-statistics.qmd) | 理論基礎 |
+| 2026-07-08 | [点過程](../notes/2026/2026-07-08-point-processes.qmd) | 統計モデル |
+| 2026-07-08 | [一般化加法モデル](../notes/2026/2026-07-08-generalized-additive-models.qmd) | 統計モデル |
+| 2026-07-08 | [犯罪学](../notes/2026/2026-07-08-criminology.qmd) | 応用分野 |
+| 2026-07-08 | [論文の内容メモ](../notes/2026/2026-07-08-paper-memo.qmd) | 文献ノート |

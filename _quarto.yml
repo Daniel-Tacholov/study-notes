@@ -2,12 +2,17 @@ project:
   type: website
 
 website:
-  title: "study-notes"
+  title: "学習ノート"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: topics/index.qmd
+        text: Topics
+      - href: archive/index.qmd
+        text: Archive
+      - href: about.qmd
+        text: About
 
 format:
   html:

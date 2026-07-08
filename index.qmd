@@ -1,7 +1,45 @@
 ---
-title: "study-notes"
+title: "Home"
+page-layout: full
+toc: false
 ---
 
-This is a Quarto website.
+::: {.hero}
+<p class="eyebrow">Study Notes</p>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# 学んだことを、あとで見返せる形で残す
+
+<p class="lead">
+このサイトは、勉強した内容を「テーマ別」「時系列」「文献メモ」の3つの視点でたどれるようにした学習ノートです。
+まずは Topics から分野を選び、必要に応じて Archive で過去のノートを追えるようにしています。
+</p>
+:::
+
+## 入口
+
+::: {.link-grid}
+::: {.link-card}
+### [Topics](topics/index.qmd)
+
+理論基礎・統計モデル・応用分野・文献ノートの4つに分けて整理します。
+:::
+
+::: {.link-card}
+### [Archive](archive/index.qmd)
+
+ノートを日付順に追える一覧です。書き進めるときの背骨になります。
+:::
+
+::: {.link-card}
+### [About](about.qmd)
+
+このサイトの目的、書き方、ファイル構成をまとめています。
+:::
+:::
+
+## すすめ方
+
+1. 学んだ内容は `notes/YYYY/` に 1 テーマ 1 ファイルで追加する
+2. 細かいテーマは Topics にまとめる
+3. 文献は `論文の内容メモ` として切り出す
+4. 後から見返すときは Archive を使う

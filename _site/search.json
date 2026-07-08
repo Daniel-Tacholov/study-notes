@@ -1,0 +1,310 @@
+[
+  {
+    "objectID": "topics/models.html",
+    "href": "topics/models.html",
+    "title": "統計モデル",
+    "section": "",
+    "text": "このカテゴリには、モデルの形と推定法を学ぶ内容を置きます。"
+  },
+  {
+    "objectID": "topics/models.html#含める内容",
+    "href": "topics/models.html#含める内容",
+    "title": "統計モデル",
+    "section": "含める内容",
+    "text": "含める内容\n\n点過程\n一般化加法モデル"
+  },
+  {
+    "objectID": "topics/models.html#使い方",
+    "href": "topics/models.html#使い方",
+    "title": "統計モデル",
+    "section": "使い方",
+    "text": "使い方\n\nモデル式と仮定をセットで書く\n何が説明できて、何が説明できないかを残す\n実装上の注意点も追記する"
+  },
+  {
+    "objectID": "topics/models.html#関連ノート",
+    "href": "topics/models.html#関連ノート",
+    "title": "統計モデル",
+    "section": "関連ノート",
+    "text": "関連ノート\n\n点過程\n一般化加法モデル"
+  },
+  {
+    "objectID": "topics/index.html",
+    "href": "topics/index.html",
+    "title": "Topics",
+    "section": "",
+    "text": "このページは、内容を大きなまとまりで探すための入口です。 「分野」と「ノートの種類」を分けると、あとから見返しやすくなります。"
+  },
+  {
+    "objectID": "topics/index.html#分け方の目安",
+    "href": "topics/index.html#分け方の目安",
+    "title": "Topics",
+    "section": "分け方の目安",
+    "text": "分け方の目安\n\n理論基礎: 定義、定理、式変形、証明のメモ\n統計モデル: モデルの仕組み、推定、実装、解釈\n応用分野: 犯罪学のような具体的な対象領域\n文献ノート: 論文の要約、気づき、再現のメモ"
+  },
+  {
+    "objectID": "topics/applied.html",
+    "href": "topics/applied.html",
+    "title": "応用分野",
+    "section": "",
+    "text": "このカテゴリには、特定分野に寄った読み物や調査ノートを置きます。"
+  },
+  {
+    "objectID": "topics/applied.html#含める内容",
+    "href": "topics/applied.html#含める内容",
+    "title": "応用分野",
+    "section": "含める内容",
+    "text": "含める内容\n\n犯罪学"
+  },
+  {
+    "objectID": "topics/applied.html#使い方",
+    "href": "topics/applied.html#使い方",
+    "title": "応用分野",
+    "section": "使い方",
+    "text": "使い方\n\n分野の基礎用語を整理する\nどの統計手法とつながるかを残す\n研究テーマとの接点を書く"
+  },
+  {
+    "objectID": "topics/applied.html#関連ノート",
+    "href": "topics/applied.html#関連ノート",
+    "title": "応用分野",
+    "section": "関連ノート",
+    "text": "関連ノート\n\n犯罪学"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-point-processes.html",
+    "href": "notes/2026/2026-07-08-point-processes.html",
+    "title": "点過程",
+    "section": "",
+    "text": "強度関数\nPoisson process\n条件付き強度\n時間点過程と空間点過程の違い"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-point-processes.html#まず押さえること",
+    "href": "notes/2026/2026-07-08-point-processes.html#まず押さえること",
+    "title": "点過程",
+    "section": "",
+    "text": "強度関数\nPoisson process\n条件付き強度\n時間点過程と空間点過程の違い"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-point-processes.html#メモ欄",
+    "href": "notes/2026/2026-07-08-point-processes.html#メモ欄",
+    "title": "点過程",
+    "section": "メモ欄",
+    "text": "メモ欄\n\nデータの単位と観測窓を確認する。\n何をイベントとして数えるかを明示する。"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-mathematical-statistics.html",
+    "href": "notes/2026/2026-07-08-mathematical-statistics.html",
+    "title": "数理統計",
+    "section": "",
+    "text": "尤度と推定量\n最尤法\n不偏性と一致性\n検定と信頼区間"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-mathematical-statistics.html#まず押さえること",
+    "href": "notes/2026/2026-07-08-mathematical-statistics.html#まず押さえること",
+    "title": "数理統計",
+    "section": "",
+    "text": "尤度と推定量\n最尤法\n不偏性と一致性\n検定と信頼区間"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-mathematical-statistics.html#メモ欄",
+    "href": "notes/2026/2026-07-08-mathematical-statistics.html#メモ欄",
+    "title": "数理統計",
+    "section": "メモ欄",
+    "text": "メモ欄\n\n前提条件をきちんと書く。\nどの結果がどの仮定に依存するかを残す。"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-criminology.html",
+    "href": "notes/2026/2026-07-08-criminology.html",
+    "title": "犯罪学",
+    "section": "",
+    "text": "研究対象と問い\nデータの種類\n使われる指標や手法\n統計モデルとの接点"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-criminology.html#まず押さえること",
+    "href": "notes/2026/2026-07-08-criminology.html#まず押さえること",
+    "title": "犯罪学",
+    "section": "",
+    "text": "研究対象と問い\nデータの種類\n使われる指標や手法\n統計モデルとの接点"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-criminology.html#メモ欄",
+    "href": "notes/2026/2026-07-08-criminology.html#メモ欄",
+    "title": "犯罪学",
+    "section": "メモ欄",
+    "text": "メモ欄\n\nどの現象を説明したいのかを最初に書く。\nデータの制約やバイアスも残しておく。"
+  },
+  {
+    "objectID": "archive/index.html",
+    "href": "archive/index.html",
+    "title": "Archive",
+    "section": "",
+    "text": "ここは、ノートを日付順でたどるための一覧です。 ノートが増えてきたら、まずここから振り返れるようにします。\n新しいノートは notes/YYYY/ に YYYY-MM-DD-slug.qmd という名前で追加します。\n\n\n\n日付\nノート\n分類\n\n\n\n\n2026-07-08\n統計関連の線形代数\n理論基礎\n\n\n2026-07-08\n数理統計\n理論基礎\n\n\n2026-07-08\n点過程\n統計モデル\n\n\n2026-07-08\n一般化加法モデル\n統計モデル\n\n\n2026-07-08\n犯罪学\n応用分野\n\n\n2026-07-08\n論文の内容メモ\n文献ノート"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "このサイトは、勉強した内容を長く残すための学習ノートです。"
+  },
+  {
+    "objectID": "about.html#ねらい",
+    "href": "about.html#ねらい",
+    "title": "About",
+    "section": "ねらい",
+    "text": "ねらい\n\nひとつのテーマを 1 ファイルでまとめる\n分野別と時系列の両方から探せるようにする\n論文メモを独立させて、後で再利用しやすくする"
+  },
+  {
+    "objectID": "about.html#ファイルの置き方",
+    "href": "about.html#ファイルの置き方",
+    "title": "About",
+    "section": "ファイルの置き方",
+    "text": "ファイルの置き方\n\ntopics/: テーマの入口\narchive/: 日付順の一覧\nnotes/YYYY/: 実際のノート\nstyles.css: 共通の見た目"
+  },
+  {
+    "objectID": "about.html#書き方のルール",
+    "href": "about.html#書き方のルール",
+    "title": "About",
+    "section": "書き方のルール",
+    "text": "書き方のルール\n\nファイル名は YYYY-MM-DD-slug.qmd\nノートの冒頭に title, date, description, tags を入れる\nまず要点、そのあとに自分の理解や補足を書く"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Study Notes\n\n\n\n\nこのサイトは、勉強した内容を「テーマ別」「時系列」「文献メモ」の3つの視点でたどれるようにした学習ノートです。 まずは Topics から分野を選び、必要に応じて Archive で過去のノートを追えるようにしています。"
+  },
+  {
+    "objectID": "index.html#入口",
+    "href": "index.html#入口",
+    "title": "Home",
+    "section": "入口",
+    "text": "入口\n\n\nTopics\n理論基礎・統計モデル・応用分野・文献ノートの4つに分けて整理します。\n\n\nArchive\nノートを日付順に追える一覧です。書き進めるときの背骨になります。\n\n\nAbout\nこのサイトの目的、書き方、ファイル構成をまとめています。"
+  },
+  {
+    "objectID": "index.html#すすめ方",
+    "href": "index.html#すすめ方",
+    "title": "Home",
+    "section": "すすめ方",
+    "text": "すすめ方\n\n学んだ内容は notes/YYYY/ に 1 テーマ 1 ファイルで追加する\n細かいテーマは Topics にまとめる\n文献は 論文の内容メモ として切り出す\n後から見返すときは Archive を使う"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-generalized-additive-models.html",
+    "href": "notes/2026/2026-07-08-generalized-additive-models.html",
+    "title": "一般化加法モデル",
+    "section": "",
+    "text": "線形予測子\nスムーズ項\nペナルティ付き推定\n過学習との関係"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-generalized-additive-models.html#まず押さえること",
+    "href": "notes/2026/2026-07-08-generalized-additive-models.html#まず押さえること",
+    "title": "一般化加法モデル",
+    "section": "",
+    "text": "線形予測子\nスムーズ項\nペナルティ付き推定\n過学習との関係"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-generalized-additive-models.html#メモ欄",
+    "href": "notes/2026/2026-07-08-generalized-additive-models.html#メモ欄",
+    "title": "一般化加法モデル",
+    "section": "メモ欄",
+    "text": "メモ欄\n\nモデル式と解釈を分けて書く。\n実装時の平滑化パラメータもメモする。"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-paper-memo.html",
+    "href": "notes/2026/2026-07-08-paper-memo.html",
+    "title": "論文の内容メモ",
+    "section": "",
+    "text": "何が問題設定か\n主要な結果\n使っている仮定\n自分の理解\n再現したいポイント\n関連するノート"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-paper-memo.html#メモの型",
+    "href": "notes/2026/2026-07-08-paper-memo.html#メモの型",
+    "title": "論文の内容メモ",
+    "section": "",
+    "text": "何が問題設定か\n主要な結果\n使っている仮定\n自分の理解\n再現したいポイント\n関連するノート"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-paper-memo.html#書き方のコツ",
+    "href": "notes/2026/2026-07-08-paper-memo.html#書き方のコツ",
+    "title": "論文の内容メモ",
+    "section": "書き方のコツ",
+    "text": "書き方のコツ\n\n要約と感想を分ける\n数式はそのまま写すより、意味を一言足す\n次に読むべき論文を最後に書く"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-statistical-linear-algebra.html",
+    "href": "notes/2026/2026-07-08-statistical-linear-algebra.html",
+    "title": "統計関連の線形代数",
+    "section": "",
+    "text": "ベクトルと行列の意味\n射影、直交、最小二乗\n共分散行列\n固有値と主成分の関係"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-statistical-linear-algebra.html#まず押さえること",
+    "href": "notes/2026/2026-07-08-statistical-linear-algebra.html#まず押さえること",
+    "title": "統計関連の線形代数",
+    "section": "",
+    "text": "ベクトルと行列の意味\n射影、直交、最小二乗\n共分散行列\n固有値と主成分の関係"
+  },
+  {
+    "objectID": "notes/2026/2026-07-08-statistical-linear-algebra.html#メモ欄",
+    "href": "notes/2026/2026-07-08-statistical-linear-algebra.html#メモ欄",
+    "title": "統計関連の線形代数",
+    "section": "メモ欄",
+    "text": "メモ欄\n\nここに定義、定理、式変形、気づきを追記する。\n必要なら図や簡単な数値例を入れる。"
+  },
+  {
+    "objectID": "topics/foundations.html",
+    "href": "topics/foundations.html",
+    "title": "理論基礎",
+    "section": "",
+    "text": "このカテゴリには、統計を読むための土台になる内容を置きます。"
+  },
+  {
+    "objectID": "topics/foundations.html#含める内容",
+    "href": "topics/foundations.html#含める内容",
+    "title": "理論基礎",
+    "section": "含める内容",
+    "text": "含める内容\n\n統計関連の線形代数\n数理統計"
+  },
+  {
+    "objectID": "topics/foundations.html#使い方",
+    "href": "topics/foundations.html#使い方",
+    "title": "理論基礎",
+    "section": "使い方",
+    "text": "使い方\n\n定義と式変形を短く整理する\nどの仮定の下で成り立つかを残す\n何に使う定理なのかを一言で添える"
+  },
+  {
+    "objectID": "topics/foundations.html#関連ノート",
+    "href": "topics/foundations.html#関連ノート",
+    "title": "理論基礎",
+    "section": "関連ノート",
+    "text": "関連ノート\n\n統計関連の線形代数\n数理統計"
+  },
+  {
+    "objectID": "topics/literature.html",
+    "href": "topics/literature.html",
+    "title": "文献ノート",
+    "section": "",
+    "text": "このカテゴリには、論文を読んだときのメモを置きます。"
+  },
+  {
+    "objectID": "topics/literature.html#含める内容",
+    "href": "topics/literature.html#含める内容",
+    "title": "文献ノート",
+    "section": "含める内容",
+    "text": "含める内容\n\n論文の内容メモ\n再現したい式や図\n気づいた前提や限界\n次に読む文献"
+  },
+  {
+    "objectID": "topics/literature.html#使い方",
+    "href": "topics/literature.html#使い方",
+    "title": "文献ノート",
+    "section": "使い方",
+    "text": "使い方\n\n1本の論文につき 1 ファイルにする\n要約と自分の理解を分ける\n関連ノートへのリンクを最後に残す"
+  },
+  {
+    "objectID": "topics/literature.html#関連ノート",
+    "href": "topics/literature.html#関連ノート",
+    "title": "文献ノート",
+    "section": "関連ノート",
+    "text": "関連ノート\n\n論文の内容メモ"
+  }
+]
